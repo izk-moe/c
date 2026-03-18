@@ -3,11 +3,11 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "11"
+      VERSION: "https://archive.org/download/tiny81/windose%2081%20littite.iso"
       RAM_SIZE: "8G"
       CPU_CORES: "4"
       DISK_SIZE: "180G"
-      USERNAME: "enderman"
+      USERNAME: "vps"
       PASSWORD: "123456"
     devices:
       - /dev/kvm
