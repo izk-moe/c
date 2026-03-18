@@ -3,12 +3,11 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://archive.org/download/tiny81/windose%2081%20littite.iso"
+      VERSION: "https://releases.ubuntu.com/24.04.4/ubuntu-24.04.4-desktop-amd64.iso"
       RAM_SIZE: "8G"
       CPU_CORES: "4"
       DISK_SIZE: "20G"
-      USERNAME: "vps"
-      PASSWORD: "123456"
+      MANUAL: "Y"
     devices:
       - /dev/kvm
       - /dev/net/tun
