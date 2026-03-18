@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://archive.org/download/win-8.1-english-x-64-x-86/Win8.1_English_x64.iso"
+      VERSION: "https://archive.org/download/tiny-10-23-h2/tiny10%20x64%2023h2.iso"
       RAM_SIZE: "8G"
       CPU_CORES: "4"
       DISK_SIZE: "20G"
